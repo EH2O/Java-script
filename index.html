@@ -1,0 +1,36 @@
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+<h1> Gissa ett tal</h1>
+
+</body>
+
+<script>
+let num = 3;
+
+let guess = 0;
+
+while(guess!=num) {
+    guess = prompt("Gissa Talet")
+    if (guess > num){
+            alert("lägre")
+    } else if(guess < num){
+        alert("högre")
+    } else if (guess == num){
+        alert("Du gissa rätt")
+    } else {
+        alert("du gjorde något helt fel...........")
+    }
+}
+
+
+</script>
+
+
+
+</html>
